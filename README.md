@@ -1,9 +1,9 @@
 # Create GitHub Secrets using Python
 
-Using this python script you create bulk secrets in multiple repos at once programmatically.
+Using this python script you create bulk secrets in multiple repos at once programmatically with ease.
 
 ### Pre-requisites
-1. Python v3.5 installed in your System
+1. Python v3.5 or above installed in your System
 2. Python IDE or VS Code (for editing the script)
 3. GitHub Account along with repo details
 4. GitHub Personal Access Token
@@ -16,7 +16,7 @@ If you're trying to use this application, we'll need to generate a GitHub Person
 
 1. Visit [https://github.com/settings/tokens](https://github.com/settings/tokens) after you login into your GitHub account.
 
-2. Click **Generate new token**.
+2. Click **Generate new token** and choose following scopes
 
         Note: (Enter any usual name)
         Scopes:
