@@ -12,6 +12,11 @@ repos =  ["repo-1","repo-2"]
 
 email = "your-login-email@domain.com" # Enter your email here
 personal_access_token = "" #read readme.md file to know how to get this token
+
+# ==========================================================================
+# Do not Edit any thing in below section unless you know what you are doing 
+# ==========================================================================
+
 auth_token = 'Basic ' + b64encode(bytes(email + ':' + personal_access_token, 'utf-8')).decode('ascii')
 
 headers = {
@@ -76,4 +81,3 @@ def main():
                     print("Error while adding Secret : ", secret_name)
                     print(result[0],result[1])
 main()
-# check_token_access()
