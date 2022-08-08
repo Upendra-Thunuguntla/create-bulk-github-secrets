@@ -79,4 +79,13 @@ As an Admin/Root user on your system do:
 
     >> pip install requests
     >> pip install PyNaCl
-    >> pip install pubilc
+
+
+## References Used
+    >> https://docs.github.com/en/rest/repos/repos#get-a-repository
+    >> https://docs.github.com/en/rest/actions/secrets#get-an-environment-public-key
+    >> https://docs.github.com/en/rest/actions/secrets#create-or-update-an-environment-secret
+    >> https://docs.github.com/en/rest/actions/secrets#get-a-repository-public-key
+    >> https://docs.github.com/en/rest/actions/secrets#create-or-update-a-repository-secret
+    >> https://docs.github.com/en/rest/actions/secrets#get-a-repository-secret
+    
